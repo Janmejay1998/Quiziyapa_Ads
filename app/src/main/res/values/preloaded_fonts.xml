@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/alegreya_sc_bold_italic</item>
+        <item>@font/almendra_display</item>
+        <item>@font/amethysta</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/clicker_script</item>
+        <item>@font/crafty_girls</item>
+        <item>@font/grand_hotel</item>
+        <item>@font/great_vibes</item>
+        <item>@font/henny_penny</item>
+        <item>@font/yellowtail</item>
+        <item>@font/zeyada</item>
+    </array>
+</resources>

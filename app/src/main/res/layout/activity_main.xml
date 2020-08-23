@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="lets.play.quiziyapa.MainActivity">
+
+    <WebView
+        android:id="@+id/sakura"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:elevation="5dp" >
+
+    </WebView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:elevation="7dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/sakuragirl" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/settings"
+        app:layout_constraintRight_toLeftOf="@+id/score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/sakura" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="10dp"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        app:layout_constraintBottom_toTopOf="@+id/about"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/play"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/score" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="100dp"
+        android:elevation="10dp"
+        android:scaleX="1.7"
+        android:scaleY="1.7"
+        android:translationY="-40dp"
+        app:layout_constraintBottom_toTopOf="@id/banner_container"
+        app:layout_constraintRight_toLeftOf="@+id/about"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/setting" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="80dp"
+        android:elevation="10dp"
+        android:scaleX="4.5"
+        android:scaleY="4.5"
+        android:translationY="-50dp"
+        app:layout_constraintBottom_toTopOf="@id/banner_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/settings"
+        app:layout_constraintTop_toBottomOf="@+id/score"
+        app:lottie_rawRes="@raw/about" />
+
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

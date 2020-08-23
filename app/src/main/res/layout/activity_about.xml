@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="lets.play.quiziyapa.AboutActivity">
+
+    <TextView
+        android:id="@+id/ctext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <com.google.android.gms.ads.AdView
+    android:id="@+id/aboutAd"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/transparent"
+    android:elevation="10dp"
+    app:adSize="BANNER"
+    app:adUnitId="ca-app-pub-5870288907912686/3909659616" />
+
+</RelativeLayout>

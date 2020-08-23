@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--Question Activity Night Colors-->
+    <color name="questionBack">#232F34</color>
+    <color name="question">#344955</color>
+    <color name="questionFullBack">#4A6572</color>
+    <color name="optionButton">#F9AA33</color>
+
+    <!--Text Night Colors-->
+    <color name="textColor">#000000</color>
+    <color name="revTextColor">#ffffff</color>
+
+    <!--Result Activity Day Colors-->
+    <color name="resultBar">#000000</color>
+
+    <!--Category And Sets Activity Action Bar-->
+    <color name="ABar">#000000</color>
+</resources>

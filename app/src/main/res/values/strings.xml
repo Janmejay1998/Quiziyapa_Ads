@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quiziyapa</string>
+    <string name="welcome">WELCOME</string>
+    <string name="about">ABOUT</string>
+    <string name="play">PLAY</string>
+    <string name="leaderboard">LeaderBoard</string>
+    <string name="user">USER</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="theme_header">Theme</string>
+    <string name="sound_header">Sound</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="theme_title">Dark Mode</string>
+    <string name="sound_title">Game Sound</string>
+
+    <string name="facebook_app_id">1351114035092954</string>
+    <string name="fb_login_protocol_scheme">fb1351114035092954</string>
+
+</resources>
