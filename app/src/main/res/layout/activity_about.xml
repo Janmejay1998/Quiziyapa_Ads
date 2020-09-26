@@ -2,19 +2,86 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/black"
     tools:context="lets.play.quiziyapa.AboutActivity">
+
+    <ImageView
+        android:id="@+id/company"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/adj"
+        android:padding="20dp"/>
+
 
     <TextView
         android:id="@+id/ctext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="TextView"
+        android:layout_below="@+id/company"
+        android:text="ADJ Creations Team Members"
         android:textColor="@android:color/white"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/ctext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ctext"
+        android:text="Janmejay Mohanty"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/ctext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ctext1"
+        android:text="Abhishek Barman"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/ctext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ctext2"
+        android:text="Dhaval Sharma"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/ctext4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ctext3"
+        android:text="S Dileep"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/ctext5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ctext4"
+        android:text="Ankit Garg"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:padding="10dp"/>
 
     <com.google.android.gms.ads.AdView
     android:id="@+id/aboutAd"

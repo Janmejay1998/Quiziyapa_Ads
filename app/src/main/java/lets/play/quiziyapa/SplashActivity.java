@@ -74,7 +74,7 @@ public class SplashActivity extends Activity {
 
                         Handler h = new Handler();
                         // The Runnable will be executed after the given delay time
-                        h.postDelayed(r,4775); // will be delayed for 4.775 seconds
+                        h.postDelayed(r,5210); // will be delayed for 5.210 seconds
                     }
                     else {
                         Toast.makeText(getApplicationContext(),"No Category Document Exists",Toast.LENGTH_SHORT).show();

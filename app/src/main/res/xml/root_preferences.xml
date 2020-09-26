@@ -26,8 +26,9 @@
 
     </PreferenceCategory>
     <PreferenceCategory app:title="Contact Us">
-        <EditTextPreference
-            android:title="\t\t\t\t\t\t\t\t\t\tADJ CREATIONS"
+        <Preference
+            app:key="company"
+            app:layout="@layout/company"
             android:selectable="false"/>
         <Preference
             app:key="email"
